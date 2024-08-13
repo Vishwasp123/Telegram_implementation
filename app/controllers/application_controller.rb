@@ -13,5 +13,4 @@ class ApplicationController < ActionController::Base
 		decoded  = jwt_decoded(header)
 		@current_user = User.find(decoded[:user_id])
 	end
-	xdfcgvhjnkml
 end
